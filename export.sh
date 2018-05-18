@@ -1,2 +1,2 @@
 #!/bin/bash
-export CF_API=$b
+export CF_API='$1'
