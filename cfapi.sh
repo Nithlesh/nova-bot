@@ -1,5 +1,4 @@
 #!/usr/bin/sh
 
-var1=%s
-export CF_API='{}'.format(var1)
+export CF_API=$1
 echo CF_API has been exported >exp.log
